@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: museum-wayang
-          image: rotua10/uas-wayang:latest # Ganti dengan image yang benar
+          image: gebiii/museum-wayang:latest # Ganti dengan image yang benar
           ports:
             - containerPort: 3000
           env:
