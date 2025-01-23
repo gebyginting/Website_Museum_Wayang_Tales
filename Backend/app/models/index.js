@@ -11,5 +11,6 @@ db.tokohWayang = require('./tokohWayang.model')
 db.jenisWayang = require('./jenisWayang.model')
 db.artikel = require('./artikel.model')
 db.beranda = require('./beranda.model')
-
+db.beranda = require('./beranda.model')
+db.profileList = require('./profileList.model')
 module.exports = db;
