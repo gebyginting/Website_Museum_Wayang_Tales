@@ -12,12 +12,9 @@ module.exports = function(app) {
 
   // Rute artikel
   app.post("/api/articles", controller.postArticle);
-<<<<<<< HEAD
   app.post("/api/tokohwayang", controller.postTokohWayang);
-=======
   app.post("/api/tokohwayang", controller.postTokohWayang)
   app.post("/api/profileList", controller.postProfileList);
->>>>>>> 763ad1815e20470b739caa66a3dc980e39c426b1
   app.get("/api/articles", controller.getArticle);
   app.get("/api/tokohwayang", controller.getTokohWayang);
   app.get("/api/profileList", controller.getProfileList);
